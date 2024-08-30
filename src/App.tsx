@@ -9,7 +9,7 @@ import Friends from './icons/Friends';
 import Coins from './icons/Coins';
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   const levelNames = [
     "Bronze",       // From 0 to 4999 coins
@@ -39,7 +39,7 @@ function App() {
 
   const [levelIndex, setLevelIndex] = useState(7);
   const [points, setPoints] = useState(2500000);
-  const [clicks, setClicks] = useState<{ id: Number, x: Number, y: number }[]>([]);
+  const [clicks, setClicks] = useState<{ id: number, x: number, y: number }[]>([]);
   const addPoints = 100000;
   const pph = 24434;
 
